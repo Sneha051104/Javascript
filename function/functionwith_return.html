@@ -1,0 +1,36 @@
+<script>
+    // function sum(a,b){
+    //     let c=a+b;
+    //     return c
+    // }
+
+    // let d=sum(2,3);
+    // document.write(d)
+
+    function sum(m,e,sc){
+        let s=m+e+sc;
+        return s;
+    }
+
+    function percentage(total){
+        let per=(total/300)*100;
+        document.write("Percentage: ",per,"% <br>");
+    }
+
+    let total =sum(40,40,40)
+    percentage( total)
+
+    let b,c
+    function subtract(){
+        d=b-c;
+        return d;
+    }
+
+    function initialize(x,y){
+        b=x;
+        c=y;
+        return subtract()
+    }
+
+    document.write("Difference of two numbers: ",initialize(8,4))
+</script>
